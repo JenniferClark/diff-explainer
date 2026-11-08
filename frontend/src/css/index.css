@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-paper: #f5f7f8;
+  --color-surface: #ffffff;
+  --color-ink: #1e2a32;
+  --color-ink-muted: #5b6b75;
+  --color-rule: #d5dce0;
+  --color-action: #0f6e74;
+  --color-action-dark: #0b5458;
+
+  --color-add: #2e7d4f;
+  --color-remove: #b4374b;
+  --color-warn: #a06a00;
+  --color-info: #3b5b8c;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
